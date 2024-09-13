@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>株式会社qia Webテスト</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="quiz outer-block">
+    <div class="inner-block">
+      <div class="quiz-content">
+        <div class="quiz-question-number"></div>
+        <h2 class="quiz-question"></h2>
+        <p id="timer">残り時間: <span id="time-left"></span>秒</p>
+        <ul class="quiz-answer">
+          <li>
+            <label class="quiz-button button01">
+              <input name="radio" type="radio" value="">
+              <span class="quiz-text01"></span>
+            </label>
+          </li>
+          <li>
+            <label class="quiz-button button02">
+              <input name="radio" type="radio" value="">
+              <span class="quiz-text02"></span>
+            </label>
+          </li>
+          <li>
+            <label class="quiz-button button03">
+              <input name="radio" type="radio" value="">
+              <span class="quiz-text03"></span>
+            </label>
+          </li>
+          <li>
+            <label class="quiz-button button04">
+              <input name="radio" type="radio" value="">
+              <span class="quiz-text04"></span>
+            </label>
+          </li>
+        </ul>
+      </div>
+      <div class="finish">
+        <div class="score-wrap">
+          <div class="score"></div>
+          <div class="ja">あなたのスコア</div>
+          <div class="full"></div>
+        </div>
+        <a href="#" class="goback-button">もう一度挑戦する</a>
+      </div>
+    </div>
+  </main>
+
+  <!-- jQueryの読み込み -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- スクリプトの読み込み -->
+  <script src="script.js"></script>
+
+</body>
+</html>
